@@ -85,12 +85,14 @@ function App() {
                   ProjectsPlatform
                 </Link>
 
+
+                {/* Navbar Links */}
+                
+                <div className={`navbar_links_div ${isMenuOpen ? 'show' : ''}`}>
                 {/* Menu Toggle Button */}
                 <button className="menu-toggle" onClick={toggleMenu}>
                   {isMenuOpen ? '×' : '≡'}
                 </button>
-
-                {/* Navbar Links */}
                 <ul className={`navbar-links ${isMenuOpen ? 'show' : ''}`} style={{ margin: "0" }}>
                   <li className="asosiy_navbar_item">
                     <Link to="/" onClick={toggleMenu}>BOSH SAHIFA</Link>
@@ -111,7 +113,7 @@ function App() {
                       <a href="/register" onClick={toggleMenu}>BEPUL BOSHLASH</a>
                     </li>
                   )}
-                </ul>
+                </ul></div>
               </div>
             </nav>
           </div>
