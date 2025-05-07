@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fe1f73c.css",
-    "main.js": "/static/js/main.6c4e1616.js",
+    "main.css": "/static/css/main.144aec06.css",
+    "main.js": "/static/js/main.5fc4d3e9.js",
     "static/js/488.2269bd29.chunk.js": "/static/js/488.2269bd29.chunk.js",
     "static/media/testmax.png": "/static/media/testmax.6dcdc2012274a8d56eea.png",
     "static/media/dilmurod.png": "/static/media/dilmurod.5051b4c7e795cc568073.png",
     "static/media/mandat_bot.png": "/static/media/mandat_bot.b6756164c8e0ef605f5b.png",
+    "static/media/bexruz.png": "/static/media/bexruz.5b2af68e011162ac0a99.png",
     "static/media/kundalikcom_icon.png": "/static/media/kundalikcom_icon.36ab26c5d4afecdf9553.png",
-    "static/media/bexruz.png": "/static/media/bexruz.54fd0a473e336a698074.png",
     "static/media/products.png": "/static/media/products.aa1cf76304288d153a59.png",
     "static/media/bot_icon.jpg": "/static/media/bot_icon.c194eb47d7a324789df7.jpg",
     "static/media/main.png": "/static/media/main.9d5eccc23bff1292c7dd.png",
-    "static/media/webicon.png": "/static/media/webicon.fc143eee28f98ec4ff11.png",
     "static/media/telegram.png": "/static/media/telegram.b76beae5b2e76931bec1.png",
     "index.html": "/index.html",
-    "main.0fe1f73c.css.map": "/static/css/main.0fe1f73c.css.map",
-    "main.6c4e1616.js.map": "/static/js/main.6c4e1616.js.map",
+    "main.144aec06.css.map": "/static/css/main.144aec06.css.map",
+    "main.5fc4d3e9.js.map": "/static/js/main.5fc4d3e9.js.map",
     "488.2269bd29.chunk.js.map": "/static/js/488.2269bd29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fe1f73c.css",
-    "static/js/main.6c4e1616.js"
+    "static/css/main.144aec06.css",
+    "static/js/main.5fc4d3e9.js"
   ]
 }

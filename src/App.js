@@ -117,6 +117,7 @@ function App() {
               </div>
             </nav>
           </div>
+          <div style={{height: "60px"}}></div>
           <Outlet />
         </div>} >
           <Route path="/" element={<Home />} />

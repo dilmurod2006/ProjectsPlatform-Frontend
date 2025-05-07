@@ -6,6 +6,7 @@ import testmax_image from "./templates/testmax.png";
 import mandat_bot_image from "./templates/mandat_bot.png";
 import kundalikcom_image from "./templates/kundalikcom_icon.png";
 import youtube_icon from "./templates/youtube.png";
+import web_icon from "./templates/webicon.png";
 import telegram_image from "./templates/telegram.png";
 import { useNavigate } from 'react-router-dom';
 
@@ -31,36 +32,6 @@ const About = () => {
     <div className="about-container">
       <div className="content-wrapper">
         <h1 className="about-title">Biz Haqimizda</h1>
-
-        {/* Team Members Section */}
-        <section className="team-section">
-          <h2 className="section-title">Asoschilarimiz</h2>
-          <div className="team-members">
-            {/* Team Member 1 */}
-            <div className="team-member">
-              <img src={dilmurod_image} alt="Dilmurod Amonov" className="team-member-img" />
-              <div className="team-member-info">
-                <h3>Amonov Dilmurod</h3>
-                <p>Python Fullstack Dasturchisi</p>
-                <a href="https://t.me/Softwere_engineer006" target="_blank" rel="noopener noreferrer">
-                  <img src={telegram_image} alt="Telegram Icon" className="contact-icon" />
-                </a>
-              </div>
-            </div>
-
-            {/* Team Member 2 */}
-            <div className="team-member">
-              <img src={bexruz_image} alt="Bexruz Boynazarov" className="team-member-img" />
-              <div className="team-member-info">
-                <h3>Boynazarov Bexruz</h3>
-                <p>Python Fullstack Dasturchisi</p>
-                <a href="https://t.me/bexruzdeveloper" target="_blank" rel="noopener noreferrer">
-                  <img src={telegram_image} alt="Telegram Icon" className="contact-icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Projects Section */}
         <section className="projects-section">
@@ -90,6 +61,51 @@ const About = () => {
               <div className="card-body">
                 <h3>KundalikCom AutoLogin</h3>
                 <p>O'quvchilarni baholash va tizimga kirish uchun avtomatik tizim.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* Team Members Section */}
+        <section className="team-section">
+          <h2 className="section-title">Asoschilarimiz</h2>
+          <div className="team-members">
+            {/* Team Member 1 */}
+            <div className="team-member">
+              <img src={dilmurod_image} alt="Dilmurod Amonov" className="team-member-img" />
+              <div className="team-member-info">
+                <h3>Amonov Dilmurod</h3>
+                <p>Python Fullstack Dasturchisi</p>
+                <div className="all-links">
+                  <a href="https://t.me/Software_engineer006" target="_blank" rel="noopener noreferrer">
+                    <img src={telegram_image} alt="Telegram Icon" />
+                    <p>Telegram</p>
+                  </a>
+                  <a href="https://dasturchi.projectsplatform.uz/dilmurodamonov" target="_blank" rel="noopener noreferrer">
+                    <img src={web_icon} alt="Telegram Icon" />
+                    Ko'proq
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Team Member 2 */}
+            <div className="team-member">
+              <img src={bexruz_image} alt="Bexruz Boynazarov" className="team-member-img" />
+              <div className="team-member-info">
+                <h3>Boynazarov Bexruz</h3>
+                <p>Python Fullstack Dasturchisi</p>
+                <div className="all-links">
+                  <a href="https://t.me/bexruzdeveloper" target="_blank" rel="noopener noreferrer">
+                    <img src={telegram_image} alt="Telegram Icon" />
+                    <p>Telegram</p>
+                  </a>
+                  <a href="https://dasturchi.projectsplatform.uz/bexruzdeveloper" target="_blank" rel="noopener noreferrer">
+                    <img src={web_icon} alt="Telegram Icon" />
+                    Ko'proq
+                  </a>
+                </div>
               </div>
             </div>
           </div>

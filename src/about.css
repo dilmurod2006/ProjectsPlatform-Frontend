@@ -15,9 +15,7 @@ body {
   }
   
   .content-wrapper {
-    background: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 1200px;
     padding: 30px;
@@ -37,10 +35,9 @@ body {
   .section-title {
     font-size: 1.5rem;
     color: #0a3d62;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    border-bottom: 3px solid #0a3d62;
+    border-bottom: 1px solid #0a3d62;
     padding-bottom: 5px;
   }
   
@@ -59,17 +56,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.205);
+    box-shadow: 0 0 10px #eeeeee;
     border-radius: 15px;
     padding: 20px;
     width: 45%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(8px);
-    transition: transform 0.3s ease-in-out;
+    transition: 0.3s;
   }
   
   .team-member:hover {
-    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0);
+    border-color: #0a3d6200;
+    box-shadow: none;
   }
   
   .team-member-img {
@@ -78,8 +77,12 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #0a3d62;
   }
-  
+  .team-member-info h1 {
+    height: 30px;
+  }
   .team-member-info h3 {
     font-size: 1.2rem;
     color: #0a3d62;
@@ -90,7 +93,43 @@ body {
     font-size: 1rem;
     color: #555;
   }
+  .team-member-info .all-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
   
+  .team-member-info .all-links a{
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #0a3d62;
+    transition-delay: 0.2s;
+    font-weight: 600;
+  }
+  .team-member-info .all-links a:hover{
+    transition-delay: 0s;
+    background-color: #0a3d621c;
+    outline: 1px solid #0a3d62;
+    box-shadow: 0 0 3px #0a3d62;
+  }
+  .team-member-info .all-links p{
+    margin: 0;
+    padding: 0;
+    color:#0a3d62;
+  }
+  .team-member-info .all-links a img{
+    width: 30px;
+    height: 30px;
+  }
   /* Projects Section */
   .projects-section {
     margin-top: 40px;
@@ -154,6 +193,7 @@ body {
   .contact-icons {
     display: flex;
     justify-content: center;
+
     gap: 20px;
   }
   
