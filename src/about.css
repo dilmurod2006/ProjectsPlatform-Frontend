@@ -216,7 +216,7 @@ body {
     }
   
     .team-member {
-      width: 80%;
+      width: fill;
       margin-bottom: 20px;
     }
   
@@ -246,6 +246,12 @@ body {
     .contact-icon {
       width: 35px;
       height: 35px;
+    }
+    .about-container{
+      padding: 10px;
+    }
+    .content-wrapper {
+      padding: 0;
     }
   }
   

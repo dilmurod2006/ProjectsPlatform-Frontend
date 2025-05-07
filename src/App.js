@@ -15,7 +15,7 @@ import KundalikCOM from './account/dashboard/kundalikcom.js';
 import Xarajatlar from './account/dashboard/xarajatlar.js';
 import Settings from './account/dashboard/sozlamalar.js';
 import AddLogins from './add_logins.js';
-
+import AdminPanel from './adminpanel.js';
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -128,6 +128,7 @@ function App() {
           <Route path="/kundalikcom" element={<KundalikCom />} />
           <Route path="/activation" element={<Activation />} />
           <Route path="/maktabga_login_parolni_tanitish/:param" element={<AddLogins />} />
+          <Route path="/adminpanel/:admin_token" element={<AdminPanel />} />
         </Route>
       </Routes>
     </Router>

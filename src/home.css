@@ -221,6 +221,7 @@ body, #asosiy_template {
         background-color: #ffffff;
         backdrop-filter: blur(10px);
         z-index: -1;
+        box-shadow: 0 130px 130px #e0e0e0;
     }
     .navbar_links_div.show>button{
         position: absolute;
