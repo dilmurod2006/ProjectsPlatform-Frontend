@@ -47,7 +47,7 @@ function App() {
           <Route path="sozlamalar" element={<Settings />} />
         </Route>
 
-        <Route path="/" element={HeaderNavbar} >
+        <Route path="/" element={<HeaderNavbar />} >
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
