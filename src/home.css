@@ -19,7 +19,7 @@ body, #asosiy_template {
 /* Navbar */
 #asosiy_navbar {
     background-color: #ffffff8f;
-    height: 60px;
+    height: 100px;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ body, #asosiy_template {
     backdrop-filter: blur(10px);
     border-radius: 30px;
     transition: 1s;
-    height: 60px;
+    height: 100px;
     overflow: hidden;
     width: 60px;
     color: white;
@@ -251,7 +251,7 @@ body, #asosiy_template {
         backdrop-filter: blur(10px);
         border-radius: 30px;
         transition: 1s;
-        height: 60px;
+        height: 100px;
         overflow: hidden;
         width: 60px;
         box-shadow: 3px 3px 10px #00000062;
